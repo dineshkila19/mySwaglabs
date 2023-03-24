@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+ <listeners>
+ 	<listener class-name="com.swaglabs.utility.ListenerClass"></listener>
+ </listeners>
+ 
+  <test thread-count="5" name="Smoke">
+  <parameter name="browser" value="Chrome"></parameter>
+  	<groups>
+  		 <run>
+    		 <include name="Smoke"></include>
+  		 </run>
+  	</groups>
+  	
+    <classes>
+      <class name="com.swaglabs.testcases.AddToCartPageTest"/>
+      <class name="com.swaglabs.testcases.CheckOutPageTest"/>
+      <class name="com.swaglabs.testcases.ShoppingCartPageTest"/>
+      <class name="com.swaglabs.testcases.LoginPageTest"/>
+      <class name="com.swaglabs.testcases.HomePageTest"/>
+      <class name="com.swaglabs.testcases.AddressPageTest"/>
+    </classes>
+    
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

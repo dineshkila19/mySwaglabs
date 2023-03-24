@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" guice-stage="DEVELOPMENT" name="Failed suite [Cross_Browser]" parallel="tests">
+  <listeners>
+    <listener class-name="com.swaglabs.utility.ListenerClass"/>
+  </listeners>
+  <test thread-count="3" name="ChromeTest(failed)" parallel="tests">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="com.swaglabs.testcases.LoginPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="ReadConfig"/>
+          <include name="afterSuite"/>
+          <include name="loginTest" invocation-numbers="0 1 2 3"/>
+        </methods>
+      </class> <!-- com.swaglabs.testcases.LoginPageTest -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
+  <test thread-count="3" name="FirefoxTest(failed)" parallel="tests">
+    <parameter name="browser" value="Firefox"/>
+    <classes>
+      <class name="com.swaglabs.testcases.LoginPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="ReadConfig"/>
+          <include name="afterSuite"/>
+          <include name="loginTest" invocation-numbers="0 1 2 3"/>
+        </methods>
+      </class> <!-- com.swaglabs.testcases.LoginPageTest -->
+      <class name="com.swaglabs.testcases.AddressPageTest">
+        <methods>
+          <include name="ReadConfig"/>
+          <include name="afterSuite"/>
+          <include name="setUp"/>
+          <include name="AddressPageTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.swaglabs.testcases.AddressPageTest -->
+      <class name="com.swaglabs.testcases.CheckOutPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="ReadConfig"/>
+          <include name="afterSuite"/>
+          <include name="CheckOutPageTest"/>
+        </methods>
+      </class> <!-- com.swaglabs.testcases.CheckOutPageTest -->
+    </classes>
+  </test> <!-- FirefoxTest(failed) -->
+  <test thread-count="3" name="IETest(failed)" parallel="tests">
+    <parameter name="browser" value="IE"/>
+    <classes>
+      <class name="com.swaglabs.testcases.LoginPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="ReadConfig"/>
+          <include name="afterSuite"/>
+          <include name="loginTest"/>
+        </methods>
+      </class> <!-- com.swaglabs.testcases.LoginPageTest -->
+      <class name="com.swaglabs.testcases.ShoppingCartPageTest">
+        <methods>
+          <include name="ShoppingCartPageTest"/>
+          <include name="setUp"/>
+          <include name="ReadConfig"/>
+          <include name="afterSuite"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.swaglabs.testcases.ShoppingCartPageTest -->
+      <class name="com.swaglabs.testcases.AddToCartPageTest">
+        <methods>
+          <include name="AddToCartTest"/>
+          <include name="verifyShoppingCart"/>
+          <include name="ReadConfig"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- com.swaglabs.testcases.AddToCartPageTest -->
+      <class name="com.swaglabs.testcases.AddressPageTest">
+        <methods>
+          <include name="ReadConfig"/>
+          <include name="afterSuite"/>
+          <include name="setUp"/>
+          <include name="AddressPageTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.swaglabs.testcases.AddressPageTest -->
+      <class name="com.swaglabs.testcases.HomePageTest">
+        <methods>
+          <include name="selectJacketTest"/>
+          <include name="ReadConfig"/>
+          <include name="afterSuite"/>
+          <include name="verifyMyLogo"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.swaglabs.testcases.HomePageTest -->
+      <class name="com.swaglabs.testcases.CheckOutPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="ReadConfig"/>
+          <include name="afterSuite"/>
+          <include name="CheckOutPageTest"/>
+        </methods>
+      </class> <!-- com.swaglabs.testcases.CheckOutPageTest -->
+    </classes>
+  </test> <!-- IETest(failed) -->
+</suite> <!-- Failed suite [Cross_Browser] -->

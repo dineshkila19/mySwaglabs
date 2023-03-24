@@ -1,0 +1,599 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="4" ignored="10" total="21" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="90790" started-at="2023-03-24T09:08:09Z" finished-at="2023-03-24T09:09:39Z">
+    <groups>
+      <group name="Sanity">
+        <method signature="AddToCartPageTest.AddToCartTest()[pri:0, instance:com.swaglabs.testcases.AddToCartPageTest@5e853265]" name="AddToCartTest" class="com.swaglabs.testcases.AddToCartPageTest"/>
+        <method signature="AddressPageTest.AddressPageTest()[pri:0, instance:com.swaglabs.testcases.AddressPageTest@4f063c0a]" name="AddressPageTest" class="com.swaglabs.testcases.AddressPageTest"/>
+        <method signature="LoginPageTest.loginTest(java.lang.String, java.lang.String)[pri:0, instance:com.swaglabs.testcases.LoginPageTest@5d76b067]" name="loginTest" class="com.swaglabs.testcases.LoginPageTest"/>
+        <method signature="ShoppingCartPageTest.ShoppingCartPageTest()[pri:0, instance:com.swaglabs.testcases.ShoppingCartPageTest@7d0587f1]" name="ShoppingCartPageTest" class="com.swaglabs.testcases.ShoppingCartPageTest"/>
+      </group> <!-- Sanity -->
+      <group name="Regression">
+        <method signature="CheckOutPageTest.CheckOutPageTest()[pri:0, instance:com.swaglabs.testcases.CheckOutPageTest@67205a84]" name="CheckOutPageTest" class="com.swaglabs.testcases.CheckOutPageTest"/>
+      </group> <!-- Regression -->
+      <group name="Smoke">
+        <method signature="AddToCartPageTest.AddToCartTest()[pri:0, instance:com.swaglabs.testcases.AddToCartPageTest@5e853265]" name="AddToCartTest" class="com.swaglabs.testcases.AddToCartPageTest"/>
+        <method signature="AddToCartPageTest.verifyShoppingCart()[pri:0, instance:com.swaglabs.testcases.AddToCartPageTest@5e853265]" name="verifyShoppingCart" class="com.swaglabs.testcases.AddToCartPageTest"/>
+        <method signature="AddressPageTest.AddressPageTest()[pri:0, instance:com.swaglabs.testcases.AddressPageTest@4f063c0a]" name="AddressPageTest" class="com.swaglabs.testcases.AddressPageTest"/>
+        <method signature="HomePageTest.verifyMyLogo()[pri:0, instance:com.swaglabs.testcases.HomePageTest@2a17b7b6]" name="verifyMyLogo" class="com.swaglabs.testcases.HomePageTest"/>
+        <method signature="LoginPageTest.loginTest(java.lang.String, java.lang.String)[pri:0, instance:com.swaglabs.testcases.LoginPageTest@5d76b067]" name="loginTest" class="com.swaglabs.testcases.LoginPageTest"/>
+        <method signature="ShoppingCartPageTest.ShoppingCartPageTest()[pri:0, instance:com.swaglabs.testcases.ShoppingCartPageTest@7d0587f1]" name="ShoppingCartPageTest" class="com.swaglabs.testcases.ShoppingCartPageTest"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test name="Test" duration-ms="90790" started-at="2023-03-24T09:08:09Z" finished-at="2023-03-24T09:09:39Z">
+      <class name="com.swaglabs.testcases.AddressPageTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.swaglabs.testcases.AddressPageTest@4f063c0a]" name="setUp" is-config="true" duration-ms="3873" started-at="2023-03-24T09:09:32Z" finished-at="2023-03-24T09:09:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="AddressPageTest()[pri:0, instance:com.swaglabs.testcases.AddressPageTest@4f063c0a]" name="AddressPageTest" duration-ms="2348" started-at="2023-03-24T09:09:36Z" finished-at="2023-03-24T09:09:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddressPageTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.swaglabs.testcases.AddressPageTest@4f063c0a]" name="tearDown" is-config="true" duration-ms="768" started-at="2023-03-24T09:09:39Z" finished-at="2023-03-24T09:09:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.swaglabs.testcases.AddressPageTest -->
+      <class name="com.swaglabs.testcases.HomePageTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.swaglabs.testcases.HomePageTest@2a17b7b6]" name="setUp" is-config="true" duration-ms="4403" started-at="2023-03-24T09:09:18Z" finished-at="2023-03-24T09:09:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="selectJacketTest()[pri:0, instance:com.swaglabs.testcases.HomePageTest@2a17b7b6]" name="selectJacketTest" duration-ms="936" started-at="2023-03-24T09:09:22Z" finished-at="2023-03-24T09:09:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectJacketTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.swaglabs.testcases.HomePageTest@2a17b7b6]" name="tearDown" is-config="true" duration-ms="829" started-at="2023-03-24T09:09:23Z" finished-at="2023-03-24T09:09:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.swaglabs.testcases.HomePageTest@2a17b7b6]" name="setUp" is-config="true" duration-ms="6897" started-at="2023-03-24T09:09:24Z" finished-at="2023-03-24T09:09:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyMyLogo()[pri:0, instance:com.swaglabs.testcases.HomePageTest@2a17b7b6]" name="verifyMyLogo" duration-ms="794" started-at="2023-03-24T09:09:31Z" finished-at="2023-03-24T09:09:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMyLogo -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.swaglabs.testcases.HomePageTest@2a17b7b6]" name="tearDown" is-config="true" duration-ms="773" started-at="2023-03-24T09:09:32Z" finished-at="2023-03-24T09:09:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.swaglabs.testcases.HomePageTest -->
+      <class name="com.swaglabs.testcases.CheckOutPageTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.swaglabs.testcases.CheckOutPageTest@67205a84]" name="setUp" is-config="true" duration-ms="5919" started-at="2023-03-24T09:08:30Z" finished-at="2023-03-24T09:08:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="CheckOutPageTest()[pri:0, instance:com.swaglabs.testcases.CheckOutPageTest@67205a84]" name="CheckOutPageTest" duration-ms="2702" started-at="2023-03-24T09:08:36Z" finished-at="2023-03-24T09:08:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckOutPageTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.swaglabs.testcases.CheckOutPageTest@67205a84]" name="tearDown" is-config="true" duration-ms="872" started-at="2023-03-24T09:08:38Z" finished-at="2023-03-24T09:08:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.swaglabs.testcases.CheckOutPageTest -->
+      <class name="com.swaglabs.testcases.LoginPageTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.swaglabs.testcases.LoginPageTest@5d76b067]" name="setUp" is-config="true" duration-ms="8010" started-at="2023-03-24T09:08:46Z" finished-at="2023-03-24T09:08:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="loginTest(java.lang.String, java.lang.String)[pri:0, instance:com.swaglabs.testcases.LoginPageTest@5d76b067]" name="loginTest" duration-ms="643" started-at="2023-03-24T09:08:54Z" data-provider="SwaglabsLoginData" finished-at="2023-03-24T09:08:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce ]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [https://www.saucedemo.com/inventory.html] but found [https://www.saucedemo.com/]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [https://www.saucedemo.com/inventory.html] but found [https://www.saucedemo.com/]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at org.testng.Assert.assertEquals(Assert.java:463)
+at com.swaglabs.testcases.LoginPageTest.loginTest(LoginPageTest.java:48)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.swaglabs.testcases.LoginPageTest@5d76b067]" name="tearDown" is-config="true" duration-ms="767" started-at="2023-03-24T09:08:55Z" finished-at="2023-03-24T09:08:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.swaglabs.testcases.LoginPageTest@5d76b067]" name="setUp" is-config="true" duration-ms="3923" started-at="2023-03-24T09:08:56Z" finished-at="2023-03-24T09:09:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="loginTest(java.lang.String, java.lang.String)[pri:0, instance:com.swaglabs.testcases.LoginPageTest@5d76b067]" name="loginTest" duration-ms="649" started-at="2023-03-24T09:09:00Z" data-provider="SwaglabsLoginData" finished-at="2023-03-24T09:09:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tandart_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce ]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [https://www.saucedemo.com/inventory.html] but found [https://www.saucedemo.com/]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [https://www.saucedemo.com/inventory.html] but found [https://www.saucedemo.com/]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at org.testng.Assert.assertEquals(Assert.java:463)
+at com.swaglabs.testcases.LoginPageTest.loginTest(LoginPageTest.java:48)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.swaglabs.testcases.LoginPageTest@5d76b067]" name="tearDown" is-config="true" duration-ms="813" started-at="2023-03-24T09:09:01Z" finished-at="2023-03-24T09:09:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.swaglabs.testcases.LoginPageTest@5d76b067]" name="setUp" is-config="true" duration-ms="7225" started-at="2023-03-24T09:09:02Z" finished-at="2023-03-24T09:09:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="loginTest(java.lang.String, java.lang.String)[pri:0, instance:com.swaglabs.testcases.LoginPageTest@5d76b067]" name="loginTest" duration-ms="792" started-at="2023-03-24T09:09:09Z" data-provider="SwaglabsLoginData" finished-at="2023-03-24T09:09:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[problem_user ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce ]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [https://www.saucedemo.com/inventory.html] but found [https://www.saucedemo.com/]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [https://www.saucedemo.com/inventory.html] but found [https://www.saucedemo.com/]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at org.testng.Assert.assertEquals(Assert.java:463)
+at com.swaglabs.testcases.LoginPageTest.loginTest(LoginPageTest.java:48)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.swaglabs.testcases.LoginPageTest@5d76b067]" name="tearDown" is-config="true" duration-ms="794" started-at="2023-03-24T09:09:10Z" finished-at="2023-03-24T09:09:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.swaglabs.testcases.LoginPageTest@5d76b067]" name="setUp" is-config="true" duration-ms="5503" started-at="2023-03-24T09:09:11Z" finished-at="2023-03-24T09:09:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="loginTest(java.lang.String, java.lang.String)[pri:0, instance:com.swaglabs.testcases.LoginPageTest@5d76b067]" name="loginTest" duration-ms="619" started-at="2023-03-24T09:09:16Z" data-provider="SwaglabsLoginData" finished-at="2023-03-24T09:09:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[blem_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[aseret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [https://www.saucedemo.com/inventory.html] but found [https://www.saucedemo.com/]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [https://www.saucedemo.com/inventory.html] but found [https://www.saucedemo.com/]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at org.testng.Assert.assertEquals(Assert.java:463)
+at com.swaglabs.testcases.LoginPageTest.loginTest(LoginPageTest.java:48)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.swaglabs.testcases.LoginPageTest@5d76b067]" name="tearDown" is-config="true" duration-ms="747" started-at="2023-03-24T09:09:17Z" finished-at="2023-03-24T09:09:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.swaglabs.testcases.LoginPageTest -->
+      <class name="com.swaglabs.testcases.ShoppingCartPageTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.swaglabs.testcases.ShoppingCartPageTest@7d0587f1]" name="setUp" is-config="true" duration-ms="3761" started-at="2023-03-24T09:08:39Z" finished-at="2023-03-24T09:08:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="ShoppingCartPageTest()[pri:0, instance:com.swaglabs.testcases.ShoppingCartPageTest@7d0587f1]" name="ShoppingCartPageTest" duration-ms="1564" started-at="2023-03-24T09:08:43Z" finished-at="2023-03-24T09:08:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ShoppingCartPageTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.swaglabs.testcases.ShoppingCartPageTest@7d0587f1]" name="tearDown" is-config="true" duration-ms="799" started-at="2023-03-24T09:08:44Z" finished-at="2023-03-24T09:08:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.swaglabs.testcases.ShoppingCartPageTest -->
+      <class name="com.swaglabs.testcases.AddToCartPageTest">
+        <test-method status="PASS" signature="ReadConfig()[pri:0, instance:com.swaglabs.testcases.AddToCartPageTest@5e853265]" name="ReadConfig" is-config="true" duration-ms="427" started-at="2023-03-24T09:08:08Z" finished-at="2023-03-24T09:08:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReadConfig -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.swaglabs.testcases.AddToCartPageTest@5e853265]" name="setUp" is-config="true" duration-ms="15465" started-at="2023-03-24T09:08:09Z" finished-at="2023-03-24T09:08:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="AddToCartTest()[pri:0, instance:com.swaglabs.testcases.AddToCartPageTest@5e853265]" name="AddToCartTest" duration-ms="1609" started-at="2023-03-24T09:08:24Z" finished-at="2023-03-24T09:08:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddToCartTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.swaglabs.testcases.AddToCartPageTest@5e853265]" name="tearDown" is-config="true" duration-ms="1530" started-at="2023-03-24T09:08:26Z" finished-at="2023-03-24T09:08:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="FAIL" signature="setUp(java.lang.String)[pri:0, instance:com.swaglabs.testcases.AddToCartPageTest@5e853265]" name="setUp" is-config="true" duration-ms="2342" started-at="2023-03-24T09:08:27Z" finished-at="2023-03-24T09:08:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[unknown error: net::ERR_INTERNET_DISCONNECTED
+  (Session info: chrome=110.0.5481.178)
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DINESHKILA', ip: '127.0.0.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9f9e54f58fa6b15db312497391918f7c, get {url=https://www.saucedemo.com/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.178, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:64343}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64343/devtoo..., se:cdpVersion: 110.0.5481.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 9f9e54f58fa6b15db312497391918f7c]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: net::ERR_INTERNET_DISCONNECTED
+  (Session info: chrome=110.0.5481.178)
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DINESHKILA', ip: '127.0.0.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9f9e54f58fa6b15db312497391918f7c, get {url=https://www.saucedemo.com/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.178, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:64343}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64343/devtoo..., se:cdpVersion: 110.0.5481.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 9f9e54f58fa6b15db312497391918f7c
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:310)
+at com.swaglabs.base.BaseClass.launchApp(BaseClass.java:90)
+at com.swaglabs.testcases.AddToCartPageTest.setUp(AddToCartPageTest.java:31)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:523)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="verifyShoppingCart()[pri:0, instance:com.swaglabs.testcases.AddToCartPageTest@5e853265]" name="verifyShoppingCart" duration-ms="0" started-at="2023-03-24T09:08:30Z" finished-at="2023-03-24T09:08:30Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[unknown error: net::ERR_INTERNET_DISCONNECTED
+  (Session info: chrome=110.0.5481.178)
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DINESHKILA', ip: '127.0.0.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9f9e54f58fa6b15db312497391918f7c, get {url=https://www.saucedemo.com/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.178, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:64343}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64343/devtoo..., se:cdpVersion: 110.0.5481.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 9f9e54f58fa6b15db312497391918f7c]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: net::ERR_INTERNET_DISCONNECTED
+  (Session info: chrome=110.0.5481.178)
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DINESHKILA', ip: '127.0.0.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9f9e54f58fa6b15db312497391918f7c, get {url=https://www.saucedemo.com/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.178, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:64343}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64343/devtoo..., se:cdpVersion: 110.0.5481.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 9f9e54f58fa6b15db312497391918f7c
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:310)
+at com.swaglabs.base.BaseClass.launchApp(BaseClass.java:90)
+at com.swaglabs.testcases.AddToCartPageTest.setUp(AddToCartPageTest.java:31)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:523)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyShoppingCart -->
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.swaglabs.testcases.AddToCartPageTest@5e853265]" name="tearDown" is-config="true" duration-ms="0" started-at="2023-03-24T09:08:30Z" finished-at="2023-03-24T09:08:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="SKIP" signature="afterSuite()[pri:0, instance:com.swaglabs.testcases.AddToCartPageTest@5e853265]" name="afterSuite" is-config="true" duration-ms="0" started-at="2023-03-24T09:09:39Z" finished-at="2023-03-24T09:09:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.swaglabs.testcases.AddToCartPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
